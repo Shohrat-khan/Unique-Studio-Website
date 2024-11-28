@@ -42,82 +42,193 @@
     <div class="pointer bnz-pointer" id="bnz-pointer"></div>
 
 
+ <!-- Main Header -->
+ <header class="header">
+    <!-- Lower Bar -->
+    <div class="header-inner">
+        <div class="container-fluid pe-0">
+            <div class="d-flex align-items-center justify-content-between">
+                <!-- Left Part -->
+                <div class="header_left_part d-flex align-items-center">
+                    <div class="logo">
+                        <a href="index.html" class="light_logo"><img style="height: 60px;"
+                                src="assets/img/Unique.studio.logo.svg" alt="logo"></a>
+                        <a href="index.html" class="dark_logo"><img style="height: 60px;"
+                                src="assets/img/Unique.studio.logo.svg" alt="logo"></a>
+                    </div>
+                </div>
 
-    <!-- Main Header -->
-    <header class="header">
-        <!-- Lower Bar -->
-        <div class="header-inner">
-            <div class="container-fluid pe-0">
-                <div class="d-flex align-items-center justify-content-between">
-                    <!-- Left Part -->
-                    <div class="header_left_part d-flex align-items-center">
-                        <div class="logo">
-                            <a href="index.html"  class="light_logo"><img style="height: 60px;" src="assets/img/Unique.studio.logo.svg" alt="logo"></a>
-                            <a href="index.html" class="dark_logo"><img style="height: 60px;"  src="assets/img/Unique.studio.logo.svg" alt="logo"></a>
+                <!-- Center Part -->
+                <div class="header_center_part d-none d-xl-block">
+                    <div class="mainnav">
+                        <ul class="main-menu">
+                            <li class="menu-item"><a href="index.html">Home</a></li>
+                            <li class="menu-item "><a href="about.html">About Us</a></li>
+                            <li class="menu-item menu-item-has-children"><a href="service-details.html">Services</a>
+                                <ul class="sub-menu" data-lenis-prevent>
+                                    <li class="menu-item"><a href="service-1-brand-shoots.html">Brand Shoots</a>
+                                    </li>
+                                    <li class="menu-item"><a href="service-2-indoor-shoots.html">Indoor Shoots</a>
+                                    </li>
+                                    <li class="menu-item"><a href="service-3-outdoor-shoots.html">Outdoor Shoots</a>
+                                    </li>
+                                    <li class="menu-item"><a href="service-4-commercial-reels.html">Commercial
+                                            Reels</a></li>
+                                    <li class="menu-item"><a href="service-5-Studio-space.html">Studio Spaces</a>
+                                    </li>
+                                    <li class="menu-item"><a href="service-6-pan-india-event-mgment.html">Pan India
+                                            Event Management</a>
+                                    </li>
+                                    <li class="menu-item"><a href="service-7post-production.html">Post
+                                            Production</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="Gallery.html">Gallery</a></li>
+                            <li class="menu-item"><a href="contact.html">Contact Us</a></li>
+                            <li class="menu-item"><a href="models-page.html">Models</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right Part -->
+                <div class="header_right_part d-flex align-items-center">
+                    <div class="aside_open wptb-element">
+                        <div class="aside-open--inner">
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
                     </div>
 
-                    <!-- Center Part -->
-                    <div class="header_center_part d-none d-xl-block">
-                        <div class="mainnav">
-                            <ul class="main-menu">
-                                <li class="menu-item"><a href="index.html">Home</a></li>
-                                <li class="menu-item "><a href="about.html">About Us</a></li>
-                                <li class="menu-item menu-item-has-children"><a href="service-details.html">Services</a>
-                                    <ul class="sub-menu" data-lenis-prevent>
-                                        <li class="menu-item"><a href="service-1-brand-photography.html">Brand Photography</a></li>
-                                        <li class="menu-item"><a href="service-2-editorail-photography.html">Editorial Photography</a></li>
-                                        <li class="menu-item"><a href="service-3-lifestyle-photography.html">Lifestyle Photography</a></li>
-                                        <li class="menu-item"><a href="service-4-commercial-photography.html">Commercial Photography</a></li>
-                                        <li class="menu-item"><a href="service-5- Creative-Direction & Production.html">Creative Direction & Production</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item"><a href="Gallery.html">Gallery</a></li>
-                                <li class="menu-item"><a href="contact.html">Contact Us</a></li>
-                                <li class="menu-item"><a href="models-page.html">Models</a></li>
-                            </ul>
-                        </div>
+                    <div style="display: none;" class="header_search wptb-element">
+                        <a href="#" class="modal_search_icon" data-bs-toggle="modal"
+                            data-bs-target="#modalSearch"><i class="bi bi-search"></i></a>
                     </div>
 
-                    <!-- Right Part -->
-                    <div class="header_right_part d-flex align-items-center">
-                        <div class="aside_open wptb-element">
-                            <div class="aside-open--inner">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
+                    <button type="button" class="mr_menu_toggle wptb-element d-xl-none">
+                        <i class="bi bi-list"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- End Main Header -->
 
-                        <div style="display: none;" class="header_search wptb-element">
-                            <a href="#" class="modal_search_icon" data-bs-toggle="modal"
-                                data-bs-target="#modalSearch"><i class="bi bi-search"></i></a>
-                        </div>
+<!-- Mobile Responsive Menu -->
+<div class="mr_menu" data-lenis-prevent>
+    <button type="button" class="mr_menu_close"><i class="bi bi-x-lg"></i></button>
+    <div class="logo"></div> <!-- Keep this div empty. Logo will come here by JavaScript -->
 
-                        <button type="button" class="mr_menu_toggle wptb-element d-xl-none">
-                            <i  class="bi bi-list"></i>
-                        </button>
+    <h6>Menu</h6>
+    <div class="mr_navmenu"></div> <!-- Keep this div empty. Menu will come here by JavaScript -->
+
+    <h6>Contact Us</h6>
+    <div class="wptb-icon-box1 style2">
+        <div class="wptb-item--inner flex-start">
+            <div class="wptb-item--icon"><i class="bi bi-envelope"></i></div>
+            <div class="wptb-item--holder">
+                <p class="wptb-item--description"><a href="mailto:ustudio072@gmail.com">ustudio072@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wptb-icon-box1 style2">
+        <div class="wptb-item--inner flex-start">
+            <div class="wptb-item--icon"><i class="bi bi-geo-alt"></i></div>
+            <div class="wptb-item--holder">
+                <p class="wptb-item--description"><a href="contact-1.html">502 Range Heights,
+                        near Behram Baug Singal new Link Road Jogeshwari West Mumbai 400102</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wptb-icon-box1 style2">
+        <div class="wptb-item--inner flex-start">
+            <div class="wptb-item--icon"><i class="bi bi-envelope"></i></div>
+            <div class="wptb-item--holder">
+                <p class="wptb-item--description"><a href="tel:9819937220">+91 9819937220</a></p>
+            </div>
+        </div>
+    </div>
+
+    <h6>Find Our Page</h6>
+    <div class="social-box">
+        <ul>
+            <li><a href="https://www.facebook.com/uniquestudios502?mibextid=ZbWKwL"><i
+                        class="bi bi-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/uniquestudios502/profilecard/?igsh=MWsyZHZ5dnUxbTA2bQ=="><i
+                        class="bi bi-instagram"></i></a></li>
+            <!-- <li><a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
+        <li><a href="https://www.behance.com/"><i class="bi bi-behance"></i></a></li> -->
+            <li><a href="https://youtube.com/@uniquestudio-gt2ft?si=JBXc1M7U80rFkSuz"><i
+                        class="bi bi-youtube"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="aside_info_wrapper" data-lenis-prevent>
+    <button class="aside_close">Close <i class="bi bi-x-lg"></i></button>
+
+    <div class="aside_logo logo">
+        <a href="index.html" class="light_logo"><img src="assets/img/Unique.studio.logo.svg" alt="logo"></a>
+        <a href="index.html" class="dark_logo"><img src="assets/img/Unique.studio.logo.svg" alt="logo"></a>
+    </div>
+
+    <div class="aside_info_inner">
+
+        <h6>// Instagram</h6>
+        <div class="insta-logo">
+            <i class="bi bi-instagram"></i> uniquestudios502
+        </div>
+        <div style="display: none;" class="wptb-instagram--gallery">
+            <div class="wptb-item--inner d-flex align-items-center justify-content-center flex-wrap">
+                <div class="wptb-item">
+                    <div class="wptb-item--image">
+                        <img src="assets/img/instagram/6.jpg" alt="img">
+                    </div>
+                </div>
+
+                <div class="wptb-item">
+                    <div class="wptb-item--image">
+                        <img src="assets/img/instagram/7.jpg" alt="img">
+                    </div>
+                </div>
+
+                <div class="wptb-item">
+                    <div class="wptb-item--image">
+                        <img src="assets/img/instagram/8.jpg" alt="img">
+                    </div>
+                </div>
+
+                <div class="wptb-item">
+                    <div class="wptb-item--image">
+                        <img src="assets/img/instagram/9.jpg" alt="img">
+                    </div>
+                </div>
+
+                <div class="wptb-item">
+                    <div class="wptb-item--image">
+                        <img src="assets/img/instagram/10.jpg" alt="img">
+                    </div>
+                </div>
+
+                <div class="wptb-item">
+                    <div class="wptb-item--image">
+                        <img src="assets/img/instagram/11.jpg" alt="img">
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <!-- End Main Header -->
 
-    <!-- Mobile Responsive Menu -->
-    <div class="mr_menu" data-lenis-prevent>
-        <button type="button" class="mr_menu_close"><i class="bi bi-x-lg"></i></button>
-        <div class="logo"></div> <!-- Keep this div empty. Logo will come here by JavaScript -->
 
-        <h6>Menu</h6>
-        <div class="mr_navmenu"></div> <!-- Keep this div empty. Menu will come here by JavaScript -->
-
-        <h6>Contact Us</h6>
         <div class="wptb-icon-box1 style2">
             <div class="wptb-item--inner flex-start">
                 <div class="wptb-item--icon"><i class="bi bi-envelope"></i></div>
                 <div class="wptb-item--holder">
-                    <p class="wptb-item--description"><a href="mailto:ustudio072@gmail.com">ustudio072@gmail.com</a></p>
+                    <p class="wptb-item--description"><a href="mailto:ustudio072@gmail.com">ustudio072@gmail.com</a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -126,8 +237,12 @@
             <div class="wptb-item--inner flex-start">
                 <div class="wptb-item--icon"><i class="bi bi-geo-alt"></i></div>
                 <div class="wptb-item--holder">
-                    <p class="wptb-item--description"><a href="contact-1.html">502 Range Heights,
-                            near Behram Baug Singal new Link Road Jogeshwari West Mumbai 400102</a></p>
+                    <p class="wptb-item--description">
+                        <a href="contact.html.html" class="text-start">
+                            502 Range Heights, near Behram
+                            Baug Singal new Link Road Jogeshwari West Mumbai 400102
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>
@@ -141,138 +256,41 @@
             </div>
         </div>
 
-        <h6>Find Our Page</h6>
-        <div class="social-box">
+        <h6>// Follow Us</h6>
+        <div class="social-box style-square">
             <ul>
-                <li><a href="https://www.facebook.com/uniquestudios502?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/uniquestudios502/profilecard/?igsh=MWsyZHZ5dnUxbTA2bQ=="><i class="bi bi-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/uniquestudios502?mibextid=ZbWKwL"><i
+                            class="bi bi-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/uniquestudios502/profilecard/?igsh=MWsyZHZ5dnUxbTA2bQ=="><i
+                            class="bi bi-instagram"></i></a></li>
                 <!-- <li><a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
-                <li><a href="https://www.behance.com/"><i class="bi bi-behance"></i></a></li> -->
-                <li><a href="https://youtube.com/@uniquestudio-gt2ft?si=JBXc1M7U80rFkSuz"><i class="bi bi-youtube"></i></a></li>
+            <li><a href="https://www.behance.com/"><i class="bi bi-behance"></i></a></li> -->
+                <li><a href="https://youtube.com/@uniquestudio-gt2ft?si=JBXc1M7U80rFkSuz"><i
+                            class="bi bi-youtube"></i></a></li>
             </ul>
         </div>
     </div>
+</div>
 
-    <div class="aside_info_wrapper" data-lenis-prevent>
-        <button class="aside_close">Close <i class="bi bi-x-lg"></i></button>
-
-        <div class="aside_logo logo">
-            <a href="index.html" class="light_logo"><img src="assets/img/Unique.studio.logo.svg" alt="logo"></a>
-            <a href="index.html" class="dark_logo"><img src="assets/img/Unique.studio.logo.svg" alt="logo"></a>
-        </div>
-
-        <div class="aside_info_inner">
-
-            <h6>// Instagram</h6>
-            <div class="insta-logo">
-                <i class="bi bi-instagram"></i> uniquestudios502
-            </div>
-            <div style="display: none;" class="wptb-instagram--gallery">
-                <div class="wptb-item--inner d-flex align-items-center justify-content-center flex-wrap">
-                    <div class="wptb-item">
-                        <div class="wptb-item--image">
-                            <img src="assets/img/instagram/6.jpg" alt="img">
+<!-- Modal Search -->
+<div class="search-modal">
+    <div class="modal fade" id="modalSearch">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="search_overlay">
+                    <form class="credential-form" method="post">
+                        <div class="form-group">
+                            <input type="text" name="search" class="keyword form-control" placeholder="Search Here">
                         </div>
-                    </div>
-
-                    <div class="wptb-item">
-                        <div class="wptb-item--image">
-                            <img src="assets/img/instagram/7.jpg" alt="img">
-                        </div>
-                    </div>
-
-                    <div class="wptb-item">
-                        <div class="wptb-item--image">
-                            <img src="assets/img/instagram/8.jpg" alt="img">
-                        </div>
-                    </div>
-
-                    <div class="wptb-item">
-                        <div class="wptb-item--image">
-                            <img src="assets/img/instagram/9.jpg" alt="img">
-                        </div>
-                    </div>
-
-                    <div class="wptb-item">
-                        <div class="wptb-item--image">
-                            <img src="assets/img/instagram/10.jpg" alt="img">
-                        </div>
-                    </div>
-
-                    <div class="wptb-item">
-                        <div class="wptb-item--image">
-                            <img src="assets/img/instagram/11.jpg" alt="img">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="wptb-icon-box1 style2">
-                <div class="wptb-item--inner flex-start">
-                    <div class="wptb-item--icon"><i class="bi bi-envelope"></i></div>
-                    <div class="wptb-item--holder">
-                        <p class="wptb-item--description"><a href="mailto:ustudio072@gmail.com">ustudio072@gmail.com</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wptb-icon-box1 style2">
-                <div class="wptb-item--inner flex-start">
-                    <div class="wptb-item--icon"><i class="bi bi-geo-alt"></i></div>
-                    <div class="wptb-item--holder">
-                        <p class="wptb-item--description">
-                            <a href="contact.html.html" class="text-start">
-                                502 Range Heights, near Behram
-                                Baug Singal new Link Road Jogeshwari West Mumbai 400102
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wptb-icon-box1 style2">
-                <div class="wptb-item--inner flex-start">
-                    <div class="wptb-item--icon"><i class="bi bi-envelope"></i></div>
-                    <div class="wptb-item--holder">
-                        <p class="wptb-item--description"><a href="tel:9819937220">+91 9819937220</a></p>
-                    </div>
-                </div>
-            </div>
-
-            <h6>// Follow Us</h6>
-            <div class="social-box style-square">
-                <ul>
-                    <li><a href="https://www.facebook.com/uniquestudios502?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/uniquestudios502/profilecard/?igsh=MWsyZHZ5dnUxbTA2bQ=="><i class="bi bi-instagram"></i></a></li>
-                    <!-- <li><a href="https://www.linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
-                    <li><a href="https://www.behance.com/"><i class="bi bi-behance"></i></a></li> -->
-                    <li><a href="https://youtube.com/@uniquestudio-gt2ft?si=JBXc1M7U80rFkSuz"><i class="bi bi-youtube"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Search -->
-    <div class="search-modal">
-        <div class="modal fade" id="modalSearch">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="search_overlay">
-                        <form class="credential-form" method="post">
-                            <div class="form-group">
-                                <input type="text" name="search" class="keyword form-control" placeholder="Search Here">
-                            </div>
-                            <button type="submit" class="btn-search">
-                                <span class="text-first"> <i class="bi bi-arrow-right"></i> </span>
-                            </button>
-                        </form>
-                    </div>
+                        <button type="submit" class="btn-search">
+                            <span class="text-first"> <i class="bi bi-arrow-right"></i> </span>
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     <!-- Main Wrapper-->
     <main class="wrapper">
@@ -312,15 +330,16 @@
 
                             <div class="col-md-6 ps-md-0 mt-5">
                                 <div class="wptb-about--text">
-                                    <p class="wptb-about--text-one mb-4">When you’re struck with a great idea, it can
-                                        feel like you’re almost there, just a few missing pieces away from the full
-                                        picture. That’s where Unique Studio steps in.</p>
-                                    <p>Located in Mumbai, Unique Studio is here to bring all those missing pieces
-                                        together, helping your vision come to life seamlessly. With everything from
-                                        brand shoots and versatile studio spaces to a roster of over 20 international
-                                        models, photographers, and production experts, we’ve got every angle covered.
-                                        Indoor or outdoor, concept to completion, Unique Studio is your creative partner
-                                        for turning ideas into reality.</p>
+                                    <p class="wptb-about--text-one mb-4">Imagine being struck by an idea—just a few
+                                        missing pieces away from creating something extraordinary. That’s where Unique
+                                        Studio steps in.
+                                    </p>
+                                    <p>Located in the heart of Mumbai, Unique Studio specializes in bringing those
+                                        missing pieces together, transforming your vision into reality seamlessly.
+                                        Whether it’s brand shoots, premium studio spaces, access to in-house International Models,
+                                        skilled photographers, or cutting-edge post-production, we’ve got it all
+                                        covered.</p>
+                                    <p>Turning your vision into reality isn’t just a promise; it’s our passion.</p>
                                 </div>
                             </div>
                         </div>
@@ -405,32 +424,32 @@
 
                         <div class="wptb-accordion wptb-accordion2 wow fadeInUp">
                             <div class="wptb--item active">
-                                <h6 class="wptb-item-title"><span>Unique Studo Missions</span> <i
+                                <h6 class="wptb-item-title"><span>Unique Studio Missions</span> <i
                                         class="plus bi bi-plus"></i>
                                     <i class="minus bi bi-dash"></i>
                                 </h6>
                                 <div class="wptb-item--content">
-                                    Our service help you design all things creative. From concept development to final
-                                    execution, we step in to offer everything under one roof.
+                                    We aim to deliver an all-inclusive service, covering everything from studio spaces
+                                    and models to shoots, professional photographers, and seamless final execution.
+
                                 </div>
                             </div>
 
                             <div class="wptb--item">
-                                <h6 class="wptb-item-title"><span>Top-Tier Talent and Resources</span> <i
+                                <h6 class="wptb-item-title"><span>360-Degree Services</span> <i
                                         class="plus bi bi-plus"></i> <i class="minus bi bi-dash"></i></h6>
                                 <div class="wptb-item--content">
-                                    Our roster includes over 20 international models, skilled photographers, and a team
-                                    of professionals ready to bring your vision to life.
+                                    From indoor and outdoor shoots to pan-India event management, we handle
+                                    everything—engagements, weddings, birthday parties, commercial shoots, and more.
                                 </div>
                             </div>
 
                             <div class="wptb--item">
-                                <h6 class="wptb-item-title"><span>Studio and Location Options</span> <i
+                                <h6 class="wptb-item-title"><span>Studio Spaces and Rentals</span> <i
                                         class="plus bi bi-plus"></i> <i class="minus bi bi-dash"></i></h6>
                                 <div class="wptb-item--content">
-                                    With access to both indoor and outdoor locations, we provide flexible shoot settings
-                                    to match your brand's unique aesthetic. Our spaces are designed to adapt to any
-                                    vision.
+                                    We offer versatile studio spaces tailored to your needs, along with camera rentals,
+                                    facilities for podcast recordings, brand shoots, and more.
                                 </div>
                             </div>
                         </div>
@@ -459,7 +478,7 @@
                 <div class="wptb-item--container">
                     <div class="wptb-item--inner">
                         <h4 class="wptb-item--text">
-                            <span class="wptb-text-backdrop">Foce 
+                            <span class="wptb-text-backdrop">Foce
                             </span>
                             <span class="wptb-item-layer both-version position-relative">
                                 <img src="assets/img/more/star.png" alt="img">
@@ -580,8 +599,8 @@
                                     and Convey your love for every moment of life as a whole.</p> -->
 
 
-                                <!-- Swiper Navigation -->
-                                <!-- <div class="wptb-swiper-navigation style1">
+        <!-- Swiper Navigation -->
+        <!-- <div class="wptb-swiper-navigation style1">
                                     <div class="wptb-swiper-arrow swiper-button-prev"></div>
                                     <div class="wptb-swiper-arrow swiper-button-next"></div>
                                 </div>
@@ -592,8 +611,8 @@
 
                 <div class="swiper-container swiper-team">
                     <div class="swiper-wrapper"> -->
-                        <!-- Team Block -->
-                        <!-- <div class="swiper-slide">
+        <!-- Team Block -->
+        <!-- <div class="swiper-slide">
                             <div class="wptb-team-grid1">
                                 <div class="wptb-item--inner">
                                     <div class="wptb-item--image">
@@ -616,8 +635,8 @@
                             </div>
                         </div> -->
 
-                        <!-- Team Block -->
-                        <!-- <div class="swiper-slide">
+        <!-- Team Block -->
+        <!-- <div class="swiper-slide">
                             <div class="wptb-team-grid1">
                                 <div class="wptb-item--inner">
                                     <div class="wptb-item--image">
@@ -640,8 +659,8 @@
                             </div>
                         </div> -->
 
-                        <!-- Team Block -->
-                        <!-- <div class="swiper-slide">
+        <!-- Team Block -->
+        <!-- <div class="swiper-slide">
                             <div class="wptb-team-grid1">
                                 <div class="wptb-item--inner">
                                     <div class="wptb-item--image">
@@ -664,8 +683,8 @@
                             </div>
                         </div> -->
 
-                        <!-- Team Block -->
-                        <!-- <div class="swiper-slide">
+        <!-- Team Block -->
+        <!-- <div class="swiper-slide">
                             <div class="wptb-team-grid1">
                                 <div class="wptb-item--inner">
                                     <div class="wptb-item--image">
@@ -688,8 +707,8 @@
                             </div>
                         </div> -->
 
-                        <!-- Team Block -->
-                        <!-- <div class="swiper-slide">
+        <!-- Team Block -->
+        <!-- <div class="swiper-slide">
                             <div class="wptb-team-grid1">
                                 <div class="wptb-item--inner">
                                     <div class="wptb-item--image">
@@ -712,8 +731,8 @@
                             </div>
                         </div> -->
 
-                        <!-- Team Block -->
-                        <!-- <div class="swiper-slide">
+        <!-- Team Block -->
+        <!-- <div class="swiper-slide">
                             <div class="wptb-team-grid1">
                                 <div class="wptb-item--inner">
                                     <div class="wptb-item--image">
@@ -736,8 +755,8 @@
                             </div>
                         </div> -->
 
-                        <!-- Team Block -->
-                        <!-- <div class="swiper-slide">
+        <!-- Team Block -->
+        <!-- <div class="swiper-slide">
                             <div class="wptb-team-grid1">
                                 <div class="wptb-item--inner">
                                     <div class="wptb-item--image">
@@ -887,7 +906,7 @@
                                                     </div>
                                                 </div>
 
-                                                <p class="wptb-item--description">  "As an entrepreneur, my personal
+                                                <p class="wptb-item--description"> "As an entrepreneur, my personal
                                                     brand is everything. Unique Studio understood this and delivered
                                                     beyond my expectations. They took the time to understand the image I
                                                     wanted to project and made sure every shot reflected my personality
@@ -899,7 +918,8 @@
                                                     </div>
                                                     <div class="wptb-item--meta-left">
                                                         <h4 class="wptb-item--title">Michael T</h4>
-                                                        <h6 class="wptb-item--designation">Personal Branding Session</h6>
+                                                        <h6 class="wptb-item--designation">Personal Branding Session
+                                                        </h6>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1035,18 +1055,23 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 mb-5 mb-md-0">
                             <div class="footer-widget text-md-end">
                                 <div class="footer-nav">
-                                    <ul>
-                                        <li class="menu-item"><a href="service-1-brand-photography.html">Brand
-                                                Photography</a></li>
-                                        <li class="menu-item"><a href="service-2-editorail-photography.html">Editorial
-                                                Photography</a></li>
-                                        <li class="menu-item"><a href="service-3-lifestyle-photography.html">Lifestyle
-                                                Photography</li>
-                                        <li class="menu-item"><a href="service-4-commercial-photography.html">Commercial
-                                                Photography</a></li>
-                                        <li class="menu-item"><a
-                                                href="service-5- Creative-Direction & Production.html">Creative
-                                                Direction & Production</a></li>
+                                    <ul class="sub-menu" data-lenis-prevent>
+                                        <li class="menu-item"><a href="service-1-brand-shoots.html">Brand Shoots</a>
+                                        </li>
+                                        <li class="menu-item"><a href="service-2-indoor-shoots.html">Indoor Shoots</a>
+                                        </li>
+                                        <li class="menu-item"><a href="service-3-outdoor-shoots.html">Outdoor Shoots</a>
+                                        </li>
+                                        <li class="menu-item"><a href="service-4-commercial-reels.html">Commercial
+                                                Reels</a></li>
+                                        <li class="menu-item"><a href="service-5-Studio-space.html">Studio Spaces</a>
+                                        </li>
+                                        <li class="menu-item"><a href="service-6-pan-india-event-mgment.html">Pan India
+                                                Event Management</a>
+                                        </li>
+                                        <li class="menu-item"><a href="service-7post-production.html">Post
+                                                Production</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
